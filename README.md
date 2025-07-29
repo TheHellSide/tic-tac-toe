@@ -38,7 +38,8 @@ This ensures the bot never loses and plays optimally.
 └── tic-tac-toe.py
 ```
 
-> You only need tic-tac-toe.py to run the game. The rest are optional but recommended for distribution/documentation.
+> _You only need `tic-tac-toe.py` to run the game._<br>
+> _The rest are optional but recommended for distribution/documentation._
 
 ---
 ### 📦 Requirements
