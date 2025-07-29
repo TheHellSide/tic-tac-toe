@@ -1,8 +1,8 @@
-# tic-tac-toe with MiniMax
+# 🎮 tic-tac-toe with MiniMax
 A simple Tic Tac Toe game with a graphical user interface built using Tkinter, featuring an intelligent AI opponent powered by the Minimax algorithm.
 
 ---
-### Features
+### 🧠 Features
 - Play classic Tic Tac Toe on a 3x3 grid.
 - Challenge a computer opponent using the Minimax algorithm, which guarantees an optimal strategy.
 - Clean and minimalist GUI created with Tkinter.
@@ -10,7 +10,7 @@ A simple Tic Tac Toe game with a graphical user interface built using Tkinter, f
 - Custom pastel color scheme for a pleasant visual experience.
 
 ---
-### Rules
+### 📏 Rules
 - The game is played on a 3x3 grid.
 - Two players take turns marking a cell, one with O (Human) and the other with X (Bot).
 - The goal is to be the first player to place three of their marks in a horizontal, vertical, or diagonal row.
@@ -18,24 +18,24 @@ A simple Tic Tac Toe game with a graphical user interface built using Tkinter, f
 - In this implementation, the Human always plays first with O.
 
 ---
-### Minimax Algorithm
+### 🤖 Minimax Algorithm
 The AI opponent uses the Minimax algorithm, a decision rule commonly used in two-player turn-based games. It recursively explores all possible game states and selects the move that maximizes its chance of winning while minimizing the opponent's chance.
 This ensures the bot never loses and plays optimally.
 
 ---
-### Code Structure
+### 🔧 Code Structure
 - Game Logic: Manages the game board, player turns, move validation, terminal state detection, and scoring.
 - Minimax AI: Implements recursive functions max_value and min_value to evaluate board states and choose the best move.
 - GUI: The TicTacToeApp class handles drawing the grid, rendering X's and O's, capturing user clicks, and displaying result popups.
 - Endgame Notifications: Popups inform the user of game results with a stylish colored interface.
 
 ---
-### Requirements
+### 📦 Requirements
 - Python 3.x
 - Tkinter (usually included with standard Python installations)
 
 ---
-### It's Run-Time
+### 📥 It's Run-Time
 1. Download the Python script or copy the source code into a file named tic_tac_toe.py.
 2. Open a terminal or command prompt in the directory containing the file.
 3. Run the script with the command:
