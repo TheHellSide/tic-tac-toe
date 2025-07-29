@@ -30,6 +30,17 @@ This ensures the bot never loses and plays optimally.
 - Endgame Notifications: Popups inform the user of game results with a stylish colored interface.
 
 ---
+### 🗂️ Project Structure
+```bash
+.
+├── LICENSE
+├── README.md
+└── tic-tac-toe.py
+```
+
+> You only need tic-tac-toe.py to run the game. The rest are optional but recommended for distribution/documentation.
+
+---
 ### 📦 Requirements
 - Python 3.x
 - Tkinter (usually included with standard Python installations)
